@@ -5,6 +5,6 @@ var chocolateBars = [
   "skittles"
 ]
 
-const array = [] 
+var mars = "mars"
 
-function addElementToBeginningOfArray(array, element) { return (element, ...array) }
+function addElementToBeginningOfArray(chocolateBars, mars) { return [mars, ...chocolateBars] }
